@@ -1,0 +1,53 @@
+.dashboard_main{
+    margin-left: 260px;
+}
+
+.stats{
+    color: white !important;
+}
+
+.stats span{
+    font-weight: normal !important;
+    font-size: 13px;
+}
+
+.table{
+    --bs-table-color: rgb(184, 180, 180) ;
+}
+
+.main_bgp{
+    position: relative !important;
+}
+
+#box{
+    z-index: 0;
+}
+
+.graph{
+    display: flex;
+    justify-content: space-around;
+}
+
+.padddig{
+    padding-top: 25px !important;
+}
+
+@media screen and (max-width:799px) {
+    #box{
+        display: none;
+    }
+
+    .graph{
+        flex-direction: column;
+    }
+
+    .padddig{
+        padding-top: 0px;
+    }
+}
+
+@media (min-width:800px) and (max-width:1024px) {
+    #box{
+        width: auto;
+    }
+}

@@ -1,0 +1,95 @@
+.css-1hsz34s-MuiDrawer-docked .MuiDrawer-paper{
+    background-color: rgba(6, 11, 40, 0.94) ;
+    color: white !important;
+}
+
+.accordion{
+    --bs-accordion-bg: rgba(17, 23, 58, 0.94) ;
+    --bs-accordion-color: white !important;
+    --bs-accordion-border-color: none !important;
+    --bs-accordion-btn-color: white !important;
+}
+
+.accordion_1{
+    --bs-accordion-bg: white !important;
+}
+
+.btn:hover{
+    background-color: transparent !important;
+    border: none !important;
+}
+
+.accordion-button::after{
+    background-image: url(../../Assets/left_arrow.png) !important;
+}
+
+
+.accordion-button:not(.collapsed)::after{
+    background-image: url(../../Assets/arrow_down-removebg.png) !important;
+    transform: none !important;
+}
+
+.dev{
+    padding: 20px 0px 20px 20px;
+}
+
+.dev img{
+    width: 20px;
+    margin-right: 10px;
+}
+
+.accor_header img{
+    width: 20px;
+    margin-right: 10px;
+}
+
+.accor_body{
+    padding: 13px 0 13px 60px;
+    font-size: 14px;
+}
+
+.accordion-button:not(.collapsed){
+    background-color: #111348 !important;
+    border-left: 4px solid #4d9cf8 !important;
+    color: white !important;
+}
+
+.accordion-button:hover{
+    background-color: #111348 !important;
+    border-left: 4px solid #4d9cf8 !important;
+    color: white !important;
+}
+
+.lenk:hover{
+    background-color: #111348 !important;
+    border-left: 4px solid #4d9cf8 !important;
+    color: white !important;
+}
+
+.accordion-button:focus{
+    border-color: none !important;
+    box-shadow: none !important;
+}
+
+.drop{
+    display: flex !important;
+    justify-content: flex-end !important;
+}
+
+.css-hyum1k-MuiToolbar-root{
+    justify-content: end;
+}
+
+.css-hyum1k-MuiToolbar-root_1{
+    justify-content: start !important;
+}
+
+.css-zxdg2z{
+    padding: 0 !important;
+}
+
+@media screen and (max-width:700px) {
+    .dashboard_main{
+        margin-left: 0px;
+    }
+}

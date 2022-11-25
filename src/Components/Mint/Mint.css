@@ -1,0 +1,19 @@
+@media screen and (max-width:800px) {
+    .horse img{
+        margin-top: 25px;
+        height: 150px !important;
+    }
+
+    .mybtnclass{
+        justify-content: center;
+    }
+
+    .mintbtn, .mintbtn1{
+        padding: 0px;
+        margin-bottom: 10px;
+    }
+
+    label{
+        margin-top: 12px;
+    }
+}
