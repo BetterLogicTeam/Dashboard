@@ -106,7 +106,7 @@ function Draawer() {
     };
     return (
         <div className='drawwer_main'>
-            <Box sx={{ display: 'flex' }}>
+            <Box style={{ backgroundColor: "rgb(1 5 32 / 94%)"}} sx={{ display: 'flex' }}>
                 <CssBaseline />
                 <AppBar className={`${open==true?"css-hyum1k-MuiToolbar-root_1":"css-hyum1k-MuiToolbar-root"}`} style={{ backgroundColor: "rgb(0 4 32)" }} position="fixed" open={open}>
                     <Toolbar >
