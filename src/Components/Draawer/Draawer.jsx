@@ -136,7 +136,7 @@ function Draawer() {
                         
                     </Toolbar>
                 </AppBar>
-                <Drawer style={{ backgroundColor: "rgb(1 5 32 / 94%)"}} variant="permanent" open={open} >
+                <Drawer style={{ backgroundColor: "currentColor"}} variant="permanent" open={open} >
                     <DrawerHeader style={{ backgroundColor: "rgb(1 5 32 / 94%)"}}>
                     <div>
                         <img className="w-20" src={logo} alt="" />
@@ -205,14 +205,6 @@ function Draawer() {
                     </Accordion>
                         <Link to="/" className="lenk"><div className='dev' style={{ backgroundColor: open ? "rgba(17, 23, 58, 0.94)" : "#fff", color: "#fff" }}><img className="w-20" src={one} alt="" /> Logout</div></Link>
                 </Drawer>
-                <Box component="main" sx={{ flexGrow: 1, p: 3 }}>
-                    <DrawerHeader />
-                    <Typography paragraph>
-                       
-                    </Typography>
-                    <Typography paragraph>
-                    </Typography>
-                </Box>
             </Box>
         </div>
     )
