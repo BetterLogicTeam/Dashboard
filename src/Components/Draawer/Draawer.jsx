@@ -136,7 +136,7 @@ function Draawer() {
                         
                     </Toolbar>
                 </AppBar>
-                <Drawer style={{ backgroundColor: "rgb(1 5 32 / 94%)"}} variant="" open={open} >
+                <Drawer style={{ backgroundColor: "rgb(1 5 32 / 94%)"}} variant="permanent" open={open} >
                     <DrawerHeader style={{ backgroundColor: "rgb(1 5 32 / 94%)"}}>
                     <div>
                         <img className="w-20" src={logo} alt="" />
