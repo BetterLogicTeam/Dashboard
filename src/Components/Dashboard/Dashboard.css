@@ -28,9 +28,9 @@
     justify-content: space-around;
 }
 
-.padddig{
+/* .padddig{
     padding-top: 25px !important;
-}
+} */
 
 @media screen and (max-width:799px) {
     #box{

@@ -101,6 +101,8 @@ function Draawer() {
         setOpen(true);
     };
 
+    // {`${open? "justifyContent: space-between":"justifyContent: end"}`}
+
     const handleDrawerClose = () => {
         setOpen(false);
     };
@@ -108,7 +110,7 @@ function Draawer() {
         <div className='drawwer_main'>
             <Box sx={{ display: 'flex' }}>
                 <CssBaseline />
-                <AppBar className={`${open? "justifyContent: space-between":"justifyContent: end"}`} style={{ backgroundColor: "rgb(0 4 32)" }} position="fixed" open={open}>
+                <AppBar className="" style={{ backgroundColor: "rgb(0 4 32)", justifyContent: "space-between" }} position="fixed" open={open}>
                     <Toolbar >
                         <IconButton
                             color="inherit"
@@ -136,7 +138,7 @@ function Draawer() {
                         
                     </Toolbar>
                 </AppBar>
-                <Drawer style={{ backgroundColor: "currentColor"}} variant="permanent" open={open} >
+                <Drawer style={{ backgroundColor: "rgba(6, 11, 40, 0.94)"}} variant="permanent" open={open} >
                     <DrawerHeader style={{ backgroundColor: "rgb(1 5 32 / 94%)"}}>
                     <div>
                         <img className="w-20" src={logo} alt="" />
