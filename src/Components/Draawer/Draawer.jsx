@@ -108,7 +108,7 @@ function Draawer() {
         <div className='drawwer_main'>
             <Box sx={{ display: 'flex' }}>
                 <CssBaseline />
-                <AppBar className={`${open==true?"css-hyum1k-MuiToolbar-root_1":"css-hyum1k-MuiToolbar-root"}`} style={{ backgroundColor: "rgb(0 4 32)" }} position="fixed" open={open}>
+                <AppBar className={`${open? "justifyContent: space-between":"justifyContent: end"}`} style={{ backgroundColor: "rgb(0 4 32)" }} position="fixed" open={open}>
                     <Toolbar >
                         <IconButton
                             color="inherit"

@@ -6644,7 +6644,15 @@ code {
 #main-content {
     margin-left: 260px;
     display: block;
+    margin-top: 90px;
 }
+
+@media screen and (max-width:800px) {
+    #main-content{
+        margin-top: 30px;
+    }
+}
+
 #main-content.hor_menu {
     margin-left: 0px;
 }

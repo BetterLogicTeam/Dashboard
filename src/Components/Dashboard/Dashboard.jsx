@@ -32,7 +32,7 @@ function Dashboard() {
       });
   return (
     <div>
-      <div className="dashboard_main">
+      <div id="main-content">
         <div className="container">
             <div className="row">
             <div className="col-xs-7">
